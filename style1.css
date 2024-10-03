@@ -1,0 +1,38 @@
+.one{
+    color:white;
+    background-color:red;
+border:none;
+height:50px;
+width:90px;
+}
+.two{
+    background-color:white;
+    color:black;
+    border-color:blue;
+   
+    height:50px;
+    width:100px;
+    font-weight:600;
+}
+.two:hover{
+    background-color:blue;
+    color:black;
+    border-color:blue;
+   
+    height:50px;
+    width:100px;
+    font-weight:600;
+}
+
+    
+    .three{
+     background-color:white ;
+        color:black;
+        border:none;
+        border-radius:10px;
+        height:70px;
+        width:90px;
+        font-weight:600;
+       
+    }
+    

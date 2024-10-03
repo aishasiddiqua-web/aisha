@@ -1,0 +1,40 @@
+.one
+{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 900;   
+    font-size: larger;
+    margin-left: 20px;
+}
+body{
+    font-family: montserrat, arial, 'Calibri' ;
+    }
+    main{
+      margin-left:20px;
+      margin-right:20px;
+    }
+    h1{
+    text-align:center;
+    font-family: montserrat, arial, 'Calibri' ;
+    }
+    .navbar a
+    {
+      text-decoration: none;
+      color: white;
+      text-align: center;
+      display:block;
+      padding:15px;
+    }
+    .navbar a:hover{
+      background-color: hsl(0, 0%, 10%);
+    }
+    .navbar ul
+    {
+      list-style-type: none;
+      background-color: hsl(0, 0%, 25%);
+      padding: 0px;
+      margin: 0px;
+      overflow:hidden;
+    }
+    .navbar li{
+      float: left;
+    }
