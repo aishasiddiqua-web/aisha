@@ -1,0 +1,15 @@
+BODY{
+    background-color:rgb(235, 178, 178) ;
+    font-family:poppins;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100hv;
+
+}
+.card{
+    background-color:white ;
+    shadow-box:;
+    width:300vw;
+    border-radius:100px;
+}
