@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Rock Paper Scissors</p>
+
+<button 
+onclick="playgame('Rock')"
+>
+ Rock
+</button>
+
+ <button
+  onclick="playgame('Paper')"
+> 
+ Paper
+</button> 
+
+<button
+     onclick="playgame('Scissors')"
+>
+  Scissors
+</button>
+
+<button onclick="">
+    Reset Score
+</button>
+</body>
+
+<script>
+
+    function playgame(playerMove){
+        const computerMove=pickComputerMove();
+        let result="";
+
+ if(playerMove=== "Rock"){
+    if (computerMove==="Rock"){
+        result= "tie";
+    }
+    if (computerMove==="Paper"){
+        result= "lose";
+    }if (computerMove==="Scissors"){
+        result= "win";
+    }
+ }
+
+
+ else if(playerMove=== "Paper"){
+    if (computerMove==="Rock"){
+        result= "win";
+    }
+    if (computerMove==="Paper"){
+        result= "tie";
+    }if (computerMove==="Scissors"){
+        result= "lose";
+    }
+ }
+
+ 
+ 
+ else if(playerMove=== "Scissors"){
+    if (computerMove==="Rock"){
+        result= "lose";
+    }
+    if (computerMove==="Paper"){
+        result= "win";
+    }if (computerMove==="Scissors"){
+        result= "tie";
+    }
+ }
+ return computerMove
+    }
+
+  function playgame(pickComputerMove){
+    const randomNumber=Math.random();
+    console.log=(randomNumber)
+    let computerMove=''
+  if(randomNumber>0 && randomNumber <1/3)
+         {
+            computerMove='Rock'
+         }
+         else if (randomNumber>=1/3 && randomNumber <2/3)
+         {
+            computerMove='Paper';
+         }
+         else{
+            computerMove='Scissors'
+         }
+         if (computerMove=='Rock')
+         {
+            result='tie';
+         }
+         else if(computerMove=='Paper')
+         {
+            result='lose';
+         }
+         else(computerMove=='Scissors')
+         {
+            result='win';
+         }
+         return pickComputerMove;
+        }
+
+
+    
+
+</script>
+</html>
