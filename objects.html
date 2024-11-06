@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects</title>
+</head>
+<body>
+    
+</body>
+<script>
+const contact={
+    'Full-Name':'Aisha',
+    phoneNumber:'333-444083',
+    email:'@gmail.com',
+    address:{
+        street:'NED university',
+        city:'Karachi',
+        Location:{
+            Longitude:'00000',
+            latitude:'00000',
+        }
+    }
+};
+contact.gender='female';
+contact.phoneNumber='000000'
+delete contact.gender;
+console.log(contact);
+//console.log(contact.Full-Name);
+//console.log(contact['Full-Name']);
+
+const contact2={
+    name:'Noor',
+    phoneNumber:'00004',
+    greet() {
+        console.log('This is Noor')
+        //return `This is ${this.name};
+
+    },
+    city:'Karachi'
+};
+console.log(contact2);
+contact2.greet();
+//console.log(contact2.greet());
+</script>
+</html>
